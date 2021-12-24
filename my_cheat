@@ -1,0 +1,47 @@
+WHY GIT :
+Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
+so you have a record of what has been done, and you can revert to specific versions should you ever need to.  
+
+REPOSITORY :
+repository is a place where things are stored for safe keeping, or where there is an ample supply of something,
+remember that LICENSE and README.md file is necessary , better to use .IGNORE
+
+A PERFECT DOC CONTAINS THREE PARTS :
+1. what is the content of the files and what it will do  
+2.how to use it
+3.how others could involve and contribute
+
+GIT CLONE :
+If you want to get a copy of an existing Git repository — for example, a project you'd like to contribute to — the command you need is git clone 
+
+UPDATING LOCAL REPOSITORY :
+git pull is used to update the local version of a repository from a remote.
+
+GIT CHECKOUT, GIT REVERT,GIT RESET :
+Git checkout switching between different versions of a target entity. The git checkout command operates upon three distinct entities: files, commits, and branches. ... In the
+git reset is used to undo local changes to the state of a Git repository.
+Git revert  is a forward-moving undo operation that offers a safe method of undoing changes. Instead of deleting or orphaning commits in the commit history,
+note that,Reset - On the commit-level, resetting is a way to move the tip of a branch to a different commit. Revert - Reverting undoes a commit by creating a new commit
+
+GIT REBASE, GIT MERGE :
+rebase “reapplies commits on top of another base branch”, whereas merge “joins two or more development histories together”. In other words, the key difference between merge and rebase is that while merge preserves history as it happened, rebase rewrites it.
+
+HISTORY OBSERVING :
+git log  is the command for displaying the history of a repository. 
+
+FILE CHANGES : 
+git diff command displays the differences between files in two commits or between a commit and your current repository.
+
+GIT TAGS :
+Git Tags are specific reference points in the Git history. for examles (git tag -a v2.6 -m "this is version 2.6")
+
+FOR PARTICIPATING IN A PROJECT :
+1-fork from our target repository
+2-clone to our local system 
+3-making our changes and commits 
+4-push to remote repository
+5-open a pull request 
+6-the projects owner mearges or clones the pull request
+
+BRANCH :
+branching facilitates the development of bug fixes, the addition of new capabilities and the integration of new versions after they have been tested in isolation.
